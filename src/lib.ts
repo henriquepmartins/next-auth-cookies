@@ -4,6 +4,7 @@ export interface SessionData {
   username?: string;
   img?: string;
   isPro?: boolean;
+  isBlocked?: boolean;
   isLoggedIn: boolean;
 }
 
