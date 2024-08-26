@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Autenticação Next.js com Cookies
 
-## Getting Started
+Este projeto exemplifica a implementação de autenticação em Next.js utilizando `next-auth` com sessões armazenadas em cookies.
 
-First, run the development server:
+## Tecnologias
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Framework principal.
+- **NextAuth.js**: Gerenciamento de autenticação.
+- **Tailwind CSS**: Estilização responsiva.
+- **Cookies**: Armazenamento seguro de sessões.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Aprendizado
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Integração do NextAuth.js com cookies.
+- Gerenciamento de sessões persistentes.
+- Design responsivo com Tailwind CSS.
+- Otimização utilizando Server Side no Next.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Execução
 
-## Learn More
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/henriquepmartins/next-auth-cookies.git
+   cd next-auth-cookies
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Instale as dependências:
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Configure as variáveis de ambiente e execute:
+   ```bash
+   pnpm run dev
+   # ou
+   yarn dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Acesse em `http://localhost:3000`.
 
-## Deploy on Vercel
+## Conclusão
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto demonstra uma autenticação segura com Next.js e cookies.
